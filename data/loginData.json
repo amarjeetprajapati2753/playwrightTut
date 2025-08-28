@@ -1,0 +1,10 @@
+{
+  "emptyFields": {
+    "username": "",
+    "password": ""
+  },
+  "invalidCredentials": {
+    "username": "abc",
+    "password": "abc@123"
+  }
+}

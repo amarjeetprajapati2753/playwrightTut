@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Playwright test reports & artifacts
+playwright-report/
+test-results/
+blob-report/
+trace.zip
+*.zip
+
+# Videos & screenshots
+*.mp4
+*.webm
+*.png
+*.jpg
+*.jpeg
+
+# Reports
+reports/
+coverage/
+*.log
+
+# Environment files (do not share secrets!)
+.env
+.env.local
+.env.*.local
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Build / dist files
+dist/
+out/
+build/
