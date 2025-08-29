@@ -1,5 +1,5 @@
 import test, { expect } from "../fixtures/pomFixture.js";
-import contactData from "../data/contactdata.json";
+import contactData from "../data/contactData.json";
 
 test.describe("Contact Page Flow", () => {
   test("Submit the contact form", async ({ contactPage, page }) => {
