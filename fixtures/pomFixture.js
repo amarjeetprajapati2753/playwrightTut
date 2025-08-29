@@ -23,7 +23,8 @@ dotenv.config();
 const test = base.extend({
   // Launch browser (shared across workers)
   browser: async ({}, use) => {
-    const browser = await chromium.launch({ headless: false });
+    // const browser = await chromium.launch({ headless: false });
+    const browser = await chromium.launch({ headless: true });
     await use(browser);
     await browser.close();
   },

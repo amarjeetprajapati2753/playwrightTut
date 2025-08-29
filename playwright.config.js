@@ -90,9 +90,10 @@ export default defineConfig({
       // use: { ...devices['Desktop Chrome'] },
       use: {
         browserName: "chromium",
-        headless: false,
-        // viewport: { width: 1920, height: 1080 },
-        viewport: null, // Let the browser define the viewport (e.g. full screen)
+        // headless: false,
+        headless: true,
+        viewport: { width: 1920, height: 1080 },
+        // viewport: null, // Let the browser define the viewport (e.g. full screen)
         launchOptions: {
           args: ["--start-maximized"], // Start maximized
           slowMo: 500,
